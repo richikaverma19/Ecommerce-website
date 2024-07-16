@@ -43,12 +43,12 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/ecommerce-project.git
+    git clone https://github.com/richikaverma19/Ecommerce-website.git
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd ecommerce-project
+    cd Ecommerce-website
     ```
 
 3. Install frontend dependencies:
@@ -69,7 +69,7 @@ To get a local copy up and running, follow these simple steps:
 ## Project Structure
 
 ```
-ecommerce-project/
+Ecommerce-website/
 ├── public/
 ├── src/
 │   ├── assets/
