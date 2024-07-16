@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ShopEasy</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <img src="images/tem.png" alt="Welcome to ShopEasy" class="hero-image">
+            <div class="hero-text">
+                <h1>Welcome to ShopEasy</h1>
+                <p>Your one-stop shop for everything you need.</p>
+            </div>
+        </section>
+    </main>
+    
+        <section id="products">
+            <h2>Products</h2>
+            <div class="product-list">
+                <!-- Products -->
+                <div class="product">
+                    <img src="images/download.jpeg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Price: $1500.00</p>
+                    <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/download (5).jpeg" alt="Product 1">
+                    <h3>Product 2</h3>
+                    <p>Price: $500.00</p>
+                    <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+                </div> <div class="product">
+                    <img src="images/download (3).jpeg" alt="Product 1">
+                    <h3>Product 3</h3>
+                    <p>Price: $100.00</p>
+                    <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+                </div> <div class="product">
+                    <img src="images/download (4).jpeg" alt="Product 1">
+                    <h3>Product 4</h3>
+                    <p>Price: $600.00</p>
+                    <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+                </div> <div class="product">
+                    <img src="images/images (1).jpeg" alt="Product 1">
+                    <h3>Product 5</h3>
+                    <p>Price: $450.00</p>
+                    <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+                </div> <div class="product">
+                    <img src="images/download (2).jpeg" alt="Product 1">
+                    <h3>Product 6</h3>
+                    <p>Price: $910.00</p>
+                    <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+                </div> <div class="product">
+                    <img src="images/images (1).jpeg" alt="Product 1">
+                    <h3>Product 7</h3>
+                    <p>Price: $210.00</p>
+                    <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+                </div> <div class="product">
+                    <img src="images/images (2).jpeg" alt="Product 1">
+                    <h3>Product 8</h3>
+                    <p>Price: $250.00</p>
+                    <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+                </div> <div class="product">
+               
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+            <div id="cart-total"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ShopEasy. All rights reserved.</p>
+    </footer>
+
+    <script src="script
